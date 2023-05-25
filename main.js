@@ -15,7 +15,7 @@ const peppozTeam = [
     // index 2
     {
         nome: "Rino",
-        ruolo: "Chef Rosticcere e Su-Chef Pasticcere",
+        ruolo: "Chef Rosticcere/Su-Chef Pasticcere",
         foto: "fotodainseriredopodiognunodiloro"
     },
     // index 3
@@ -32,3 +32,10 @@ const peppozTeam = [
     },
 ];
 
+// iterare i valori dei membri del team in console
+for (const team of peppozTeam) {
+    console.log(team);
+}
+// for (info in peppozTeam) {
+//     console.log(peppozTeam[info]);
+// }
